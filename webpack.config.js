@@ -16,6 +16,7 @@ const config = {
     extensions: ['.js', '.html', '.scss']
   },
   devServer: {
+    watchContentBase: true,
     stats: 'minimal'
   },
   module: {
