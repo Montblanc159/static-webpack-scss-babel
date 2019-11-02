@@ -1,0 +1,31 @@
+{
+  "name": "relais-de-jadis",
+  "version": "1.0.0",
+  "main": "./assets/javascripts/main.js",
+  "author": "Montblanc159 <guillaume.zaugg@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --hot",
+    "build": "cross-env NODE_ENV=production webpack"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "autoprefixer": "^9.7.1",
+    "babel-loader": "^8.0.6",
+    "cross-env": "^6.0.3",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "imagemin": "6.0.0",
+    "img-loader": "^3.0.1",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.13.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
